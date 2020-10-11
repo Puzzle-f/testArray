@@ -46,9 +46,9 @@ public class Main {
         int[] arr = {1,2,3,4,5,6,4,1,3};
         int[] arr2 = {1,1,1,4,4,1,4,4};
         int[] arr3 = {1,1,1,1,1,1,1};
-//        arrayTailAfter4(arr);
-//        arrayCheck(arr2);
-//        arrayCheck(arr3);
+        arrayTailAfter4(arr);
+        arrayCheck(arr2);
+        arrayCheck(arr3);
 
     }
 
@@ -63,7 +63,10 @@ public class Main {
             }
         }
         if(one==true&&four==true){
+            System.out.println(true);
             return true;
-        } else return false;
+        } else  System.out.println(false);
+        return false;
+
     }
 }
